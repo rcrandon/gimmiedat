@@ -1,0 +1,15 @@
+name: Idea or bug
+description: Something in the app itself, not a broken site.
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What would you like, or what went wrong?
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: From `? about`, the app version and the yt-dlp version.
+      placeholder: "gimmie 'dat 1.0.1, yt-dlp 2026.08.19"

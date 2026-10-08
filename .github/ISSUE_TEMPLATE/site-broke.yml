@@ -1,0 +1,36 @@
+name: A site stopped working
+description: A link that used to work now fails, or a site isn't recognised.
+labels: ["site"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Sites change all the time and yt-dlp ships fixes quickly. Before filing, open `? about` and tap **update yt-dlp**, then try again.
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: The link you shared or pasted. Use a public post.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: What happened
+      description: The message on the error screen, or what you expected instead.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: From `? about`, the app version and the yt-dlp version.
+      placeholder: "gimmie 'dat 1.0.1, yt-dlp 2026.08.19"
+    validations:
+      required: true
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android version
+      placeholder: Galaxy S22, Android 16
