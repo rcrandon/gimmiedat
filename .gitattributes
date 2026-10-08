@@ -1,0 +1,10 @@
+# Normalise text to LF in the repo; never touch binaries.
+* text=auto
+gradlew text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.jar binary
+*.ttf binary
+*.png binary
+# the bundled yt-dlp is a zipapp: a line-ending rewrite would corrupt it
+app/src/main/res/raw/ytdlp binary

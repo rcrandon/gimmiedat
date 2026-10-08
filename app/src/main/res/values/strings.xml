@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the apostrophe stays escaped, aapt rejects a bare one -->
+    <string name="app_name">Gimmie \'Dat</string>
+    <string name="share_label">Gimmie \'Dat</string>
+    <string name="channel_progress">grabbing</string>
+    <string name="channel_progress_desc">Progress of the download in flight</string>
+    <string name="channel_done">grabbed</string>
+    <string name="channel_done_desc">Tells you when a download lands</string>
+</resources>
