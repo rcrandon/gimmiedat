@@ -37,6 +37,12 @@ the Play Store.
 
 ## Usage
 
+<p align="center">
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/1.jpg" alt="Home: the gimmie 'dat logo, the tagline and the paste field" width="30%">&nbsp;
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/2.jpg" alt="Quality picker: every resolution with its estimated size, plus audio-only mp3" width="30%">&nbsp;
+  <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/3.jpg" alt="Done: the file saved to Download/Gimmie 'Dat, with play, share and grab another" width="30%">
+</p>
+
 - **Share** a video from YouTube, TikTok, Instagram, X, a browser... and pick **Gimmie 'Dat**.
 - Or open the app and paste. A link you copied shows up as *link in your clipboard: tap to grab it*.
 - Or select a link anywhere and choose **Gimmie 'Dat** from the text selection menu.

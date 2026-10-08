@@ -6,5 +6,7 @@ gradlew text eol=lf
 *.jar binary
 *.ttf binary
 *.png binary
+*.jpg binary
+*.jpeg binary
 # the bundled yt-dlp is a zipapp: a line-ending rewrite would corrupt it
 app/src/main/res/raw/ytdlp binary
