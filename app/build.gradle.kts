@@ -30,8 +30,9 @@ android {
         minSdk = 29
         targetSdk = 36
         // 1.0.0 = Nab 'Dat 1.0.2 renamed to Gimmie 'Dat, under its own app id so it installs beside it.
-        versionCode = 1
-        versionName = "1.0.0"
+        // 1.0.1 = the tagline under the logo reads "see video, paste video, gimmie 'dat video".
+        versionCode = 2
+        versionName = "1.0.1"
 
         buildConfigField("String", "YTDLP_BUNDLED", "\"$bundledYtDlp\"")
         buildConfigField("boolean", "YTDLP_AUTO_UPDATE", "$autoUpdateYtDlp")

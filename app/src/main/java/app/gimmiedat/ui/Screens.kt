@@ -102,7 +102,7 @@ import kotlinx.coroutines.launch
 
 enum class ClipState { NONE, TEXT, LINK }
 
-private const val TAGLINE = "gimmie any video. paste. gimmie 'dat. done."
+private const val TAGLINE = "see video, paste video, gimmie 'dat video"
 private const val REPO = "github.com/rcrandon/gimmiedat"
 private const val SITES = "youtube · x · instagram · threads\ntiktok · +1800 more"
 

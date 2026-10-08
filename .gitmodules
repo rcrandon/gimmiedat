@@ -1,0 +1,4 @@
+[submodule "external/yt-dlp"]
+	path = external/yt-dlp
+	url = https://github.com/yt-dlp/yt-dlp.git
+	shallow = true

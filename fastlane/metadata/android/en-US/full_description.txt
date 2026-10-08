@@ -1,3 +1,5 @@
+see video, paste video, gimmie 'dat video.
+
 Gimmie 'Dat saves videos and audio from YouTube, Instagram, TikTok, X, Threads and the 1,800+ other sites that yt-dlp supports.
 
 Share a link to Gimmie 'Dat from any app, paste it, or select a link anywhere and pick Gimmie 'Dat from the text menu. Choose a resolution or audio-only mp3, and the file lands in Download/Gimmie 'Dat, where your gallery, file manager and music player find it.
