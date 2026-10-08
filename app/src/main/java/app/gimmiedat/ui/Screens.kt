@@ -632,7 +632,6 @@ private fun AboutSheet(onDismiss: () -> Unit) {
             GrayLine("$REPO ↗") {
                 openUrl(context, "https://$REPO")
             }
-            Text("a pocket port of yoinks by pablo stanley", style = Type.tiny, color = palette.gray)
             Gap(14.dp)
             TerminalFrame("Engine", Modifier.fillMaxWidth()) {
                 Column(Modifier.fillMaxWidth()) {
